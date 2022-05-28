@@ -28,7 +28,6 @@ for ($i=1; $i<count($array)-1; $i++)
     
    $sum = $sum + $array[$i];
 
-
 echo $sum;
 
 
