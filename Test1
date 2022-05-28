@@ -1,0 +1,87 @@
+1. Se dau doua numere naturale n si m. Sa se afiseze patratul primului numar, si cubul
+celui de-al treilea numar.
+ex: n = 5, m = 2
+Output: 25 8
+
+Begin
+read a, b
+$patrat = a * a;
+$cub = b * b * b;
+print $patrat
+print $cub
+End
+
+2. Se da un numar natural n. Sa se determine daca numarul este prim.
+ex: n = 7
+Output: Numarul este prim!
+n = 6
+Output: Numarul nu este prim!
+
+Begin
+read n
+if n%2 == 0
+print "numarul nu este prim"
+else
+print "numarul este prim"
+end
+
+
+3. In aplicatia Google Maps introducem o destinatie, cu scopul de a afla cel mai scurt
+drum. Aplicatia ne ofera 3 variante, cu distante si timpi diferiti. Sa se scrie un
+program PHP care sa determine cea mai scurta distanta dintre cele 3 variante.
+Daca doua distante sunt egale, sa se afiseze ambele.
+ex: d1 = 243, d2 = 200, d3 = 313
+Output: 200.
+ex: d1 = 243, d2 = 243, d3 = 313
+Output: 243, 243
+
+4. Se da un numarul natural n. Sa se afiseze toti divizorii acestuia.
+ex: n = 10
+Output: 1, 2, 5, 10
+
+5. Se da un numar natural n. Sa se afiseze rasturnatul acestui numar.
+ex: n = 243
+
+Output: 342.
+
+6. Se da un numar natural n. Sa se determine daca suma cifrelor sale este un numar
+prim.
+ex: n = 24
+Output: Suma cifrelor nu este numar prim.
+ex: n = 25
+Output: Suma cifrelor este un numar prim
+
+7. Se ddau 2 numere naturale n si m. Sa se determine cel mai mare divizor
+comun(CMMDC).
+Pentru aceasta problema sa se caute pe internet algoritmul de calculare al CMMDC si
+sa se implementeze in PHP.
+ex: n = 15, m = 50
+output: 5
+ex: n = 42, m = 56
+output: 7
+
+8. Se da un numar natural n. Sa se calculeze suma cifrelor sale pare si produsul
+cifrelor impare.
+ex: n = 12345
+output: Suma = 6, Produsul = 9
+
+9. Sa se implementeze o aplicatie de schimb valutar. Sa se salveze in niste variabile
+rata de schimb intre niste valute. Ca data de intrare sa se citeasca suma care se
+doreste sa fie schimbata, si relatia de schimb valutar. Ca output sa se afiseze
+valoarea convertita.
+Exemplu:
+euro_lei=5
+lei_euro=0.2
+
+dolar_lei=4.5
+lei_dolar=0.22
+euro_dolar=1.1
+dolar_euro=0.9
+
+input_suma=100
+input_relatie=$euro_lei
+
+Output:
+500.
+
+100 de euro au fost convertiti in 500 de lei.
