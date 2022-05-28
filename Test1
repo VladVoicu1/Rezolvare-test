@@ -35,9 +35,39 @@ Output: 200.
 ex: d1 = 243, d2 = 243, d3 = 313
 Output: 243, 243
 
+begin 
+read a, b, c;
+if a>b; a>c; then print a;
+else then print “a=b”
+if b>a; b>c; the print c;
+else then print “a=c”
+if c>a; c>b;  then print b;
+else then print “b=c"
+end
+
+
 4. Se da un numarul natural n. Sa se afiseze toti divizorii acestuia.
 ex: n = 10
 Output: 1, 2, 5, 10
+
+$a=10;
+ 
+function calculare_numar_divizori($n){
+    $numar_divizori = 0;
+ 
+ 
+    for($j=1; $j<$n+1; $j++)
+    {
+        if ( $n % $j == 0 ) $numar_divizori++;
+    }
+ 
+     return $numar_divizori;
+}
+ 
+$nr_div_a = calculare_numar_divizori($a);
+ 
+echo $nr_div_a;
+
 
 5. Se da un numar natural n. Sa se afiseze rasturnatul acestui numar.
 ex: n = 243
