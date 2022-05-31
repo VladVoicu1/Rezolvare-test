@@ -1,1 +1,65 @@
+String
 
+1. Ce sintaxa folosim pentru a defini un string in PHP?
+b. $name = ‘Ion’;
+
+
+2. Care este diferenta intre ghilimele duble si ghilimele simple in PHP?
+cele simple nu interpoleaza variabile, pe cand cele duble da
+
+3. Cum afisam un rand nou in PHP?
+/n
+
+4. Care dintre cele doua cuvinte este considerat “mai mare”?
+a. “ABc45” 
+
+5. Ce keyword PHP folosim pentru afisarea unui array?
+print
+
+6. Se da un string. Sa se afiseze lungimea acelui cuvant.
+
+$sintagma = "emagenaspa";
+ 
+echo strlen($sintagma);
+
+
+7. Se considera un camp dintr-ul formular, pentru adresa de email. Sa se scrie un cod
+de “Clean-up” prin care se sterg toate spatiile goale de dinainte si de dupa adresa de
+email.
+
+$adresamail = "       user@gmail.com        ";
+ 
+echo strlen($adresamail);
+ 
+$username_without_spaces = trim($adresamail);
+ 
+echo strlen($adresamail_without_spaces);
+
+
+8. Se considera o aplicatie de chat. In aceasta aplicatie sunt doar oameni sensibile,
+carora nu le place sa se tipe. De aceea, se dorest eimplementarea unui program care
+preia mesajele si daca gaseste cuvinte cu majuscule, sa le converteasca la litere mici.
+
+9. Sa se implementeze o functie care sa preia doua stringuri si sa returneze cate
+caractere au in comun.
+
+10. Se da un text. Sa se afle daca textul contine cuvantul “maine”.
+
+11. Se da o propozitie. Se doreste spargerea acesteia in cuvinte, si returnarea cuvantului
+cu cea mai lunga lungime
+
+12. Se da urmatorul paragraph. Sa se rezolve toate problemele legate de
+majuscule/minuscule. Sa se repecte totusi regulile din propizitie ( prima lotera din
+propozitie sa fie mare, substantivele proprii sa fie cu litera mare, etc.).
+
+text = “Într-o lume în care TIMPUL este cea mai prețioasă resursă, oamenii încearcă să
+profite de cât mai multe ore din cele 24 disponibile în fiecare zi. AIci mă refer la activități
+care aduc venit, la activități cu familiamersul la Mall sau simpla relaxare.
+
+Pentru a face rost de cât mai multe ore cu cei dragi, de PLIMBARI în parc sau la muncă,
+există o tendința acCentuaTa de a se renunța la unele activități “de-ale casei”, Consumatoare
+de timp, cUm ar fi curățenia sau gătitul.
+Dacă în ceea ce privește curățenia în casă, angajarea unei resurse externe de încredere nu
+prezintă prea multe efecte negative, atunci când vorbim despre alimentație, vorbim despre
+sănătatea noastră. Alternativele gătitului sunt reprezentate fie de mâncarea comandată, fie de
+ieșirile la RESTAURANT.”
