@@ -11,6 +11,6 @@ for ($i = 0; $i < count($matrice); $i++)
 for ($j = 0; $j < count($matrice[0]); $j++)
     echo $matrice[$i][$j]
     
-    2
+2. Se da o matrice. Sa se afiseze elementele coloana cu coloana, pe un singur rand.
     
     
