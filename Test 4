@@ -60,6 +60,14 @@ echo "da"
 11. Se da o propozitie. Se doreste spargerea acesteia in cuvinte, si returnarea cuvantului
 cu cea mai lunga lungime
 
+$propozitie = "Emag e cea mai naspa companie";
+
+$word_array = str_split($propozitie);
+
+print_r ($word_array);
+
+strlen($propozitie)
+
 12. Se da urmatorul paragraph. Sa se rezolve toate problemele legate de
 majuscule/minuscule. Sa se repecte totusi regulile din propizitie ( prima lotera din
 propozitie sa fie mare, substantivele proprii sa fie cu litera mare, etc.).
