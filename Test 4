@@ -14,7 +14,7 @@ cele simple nu interpoleaza variabile, pe cand cele duble da
 a. “ABc45” 
 
 5. Ce keyword PHP folosim pentru afisarea unui array?
-print
+print_r
 
 6. Se da un string. Sa se afiseze lungimea acelui cuvant.
 
@@ -27,7 +27,7 @@ echo strlen($sintagma);
 de “Clean-up” prin care se sterg toate spatiile goale de dinainte si de dupa adresa de
 email.
 
-$adresamail = "       user@gmail.com        ";
+$adresamail = "  vlad@gmail.com   ";
  
 echo strlen($adresamail);
  
@@ -40,10 +40,22 @@ echo strlen($adresamail_without_spaces);
 carora nu le place sa se tipe. De aceea, se dorest eimplementarea unui program care
 preia mesajele si daca gaseste cuvinte cu majuscule, sa le converteasca la litere mici.
 
+$sintagma = "EMAG e naspa";
+
+print(strtolower($sintagma));
+
 9. Sa se implementeze o functie care sa preia doua stringuri si sa returneze cate
 caractere au in comun.
 
 10. Se da un text. Sa se afle daca textul contine cuvantul “maine”.
+
+
+$sintagma = "EMAG e naspa, nu azi, ci maine";
+
+var_dump($sintagma->contains('maine'));
+
+echo "da"
+
 
 11. Se da o propozitie. Se doreste spargerea acesteia in cuvinte, si returnarea cuvantului
 cu cea mai lunga lungime
