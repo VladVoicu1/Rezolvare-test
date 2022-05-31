@@ -1,7 +1,7 @@
 String
 
 1. Ce sintaxa folosim pentru a defini un string in PHP?
-b. $name = ‘Ion’;
+b. $name = "Ion";
 
 
 2. Care este diferenta intre ghilimele duble si ghilimele simple in PHP?
