@@ -1,1 +1,16 @@
+1.Se da o matrice. Sa se afiseze elementele linie cu linie, pe un singur rand.
+$matrice = array (
 
+array (1, 3, 7),
+array (5, 4, 2),
+array (2, 6, 7),
+array (3, 5, 8),
+);
+
+for ($i = 0; $i < count($matrice); $i++)
+for ($j = 0; $j < count($matrice[0]); $j++)
+    echo $matrice[$i][$j]
+    
+    2
+    
+    
