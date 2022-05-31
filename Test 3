@@ -14,15 +14,17 @@ for ($j = 0; $j < count($matrice[0]); $j++)
 2. Se da o matrice. Sa se afiseze elementele coloana cu coloana, pe un singur rand.
 $matrice = array (
 
+$matrice = array (
+
 array (1, 3, 7),
 array (5, 4, 2),
-array (2, 6, 7),
-array (3, 5, 8),
+array (2, 6, 7)
 );
 
 for ($i = 0; $i < count($matrice); $i++)
-for ($j = 0; $j <= count($matrice[$i]); $j++)
-    echo $matrice [$j][0]
+for ($j = 0; $j < count($matrice); $j++)
+    echo $matrice[$j][$i];
+    
     
 3.Se da o matrice. Sa se afiseze suma numerelor de pe coloane pare:
 
