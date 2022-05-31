@@ -44,5 +44,29 @@ for ($i= 0; $i < count($matrice); $i++)
             $sum = $sum + $matrice[$i][$j];
 echo "suma este ";
 echo $sum;
+
+4.// Se da o matrice patratica. Sa se calculeze suma elementelor impare de pe diagonala principala.
+//        0  1  2
+// array (1, 3, 7),0
+// array (5, 4, 2),1
+// array (2, 6, 7) 2
+
+$matrice = array (
+
+array (1, 3, 7),
+array (5, 4, 2),
+array (2, 6, 7)
+);
+
+$sum = 0;
+
+for ($i= 0; $i < count($matrice); $i++)
+    for ($j = 0; $j < count($matrice[0]); $j++)
+        if( $i == $j )
+        if($matrice[$i][$j] % 2 != 0)    
+            $sum = $sum + $matrice[$i][$j];
+echo "suma este ";
+echo $sum;
+    
     
     
